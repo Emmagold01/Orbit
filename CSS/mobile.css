@@ -1,0 +1,88 @@
+/* Navigation */
+#navbar .container {
+    grid-template-columns: 6fr 3fr;
+    grid-gap: 1rem;
+  }
+  
+  #navbar .logo {
+    margin-left: 1rem;
+  }
+
+  .btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: rgba(241, 237, 237, 0.884);
+    color: #070707;
+  }
+
+  /* Services */
+  #services .items {
+    grid-template-columns: 1fr;
+  }
+
+  /* Team */
+  #team .team-container {
+    grid-template-columns: 1fr;
+  }
+
+  #team .team-container .card img {
+    height: 100vh;
+  }
+
+  /* Why */
+  #why .w-container {
+    height: 100vh;
+  }
+
+  
+  #why .why-items {
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: auto;
+  }
+
+
+  /* About page */
+  #about .about-grid {
+    grid-template-columns: 1fr;
+    padding: 2px;
+    margin-top: -5rem;
+  }
+
+  #about .about-grid .a-item1 {
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+  }
+
+
+  #about .about-grid .a-item2 {
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+  }
+
+
+  #about .about-grid .a-item3 {
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+  }
+  
+
+  /* Contact */
+  #contact-form .contact {
+    grid-template-columns: 1fr;
+  }
+
+  #contact-form .contact-card2 {
+    display: none;
+  }
+
+  .btn-contact {
+    left: 20%;
+  }
