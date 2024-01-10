@@ -8,10 +8,14 @@
     margin-left: 1rem;
   }
 
+  #navbar .container ul {
+    margin-left: 10rem;
+  }
+
   .btn {
     display: block;
     margin: 20px auto;
-    padding: 10px 20px;
+    padding: 10px;
     background: #333;
     color: #fff;
     text-decoration: none;
@@ -22,14 +26,35 @@
     color: #070707;
   }
 
+  #about .about-container {
+    padding: 0.9rem;
+    font-size: 0.7rem;
+  }
+
+  #about .about-container .a-heading {
+    font-size: 1.5rem;
+  }
+
   /* Services */
   #services .items {
     grid-template-columns: 1fr;
+    padding: 1.5rem;
+    font-size: 1rem;
+    margin-left: 3rem;
+  }
+
+  /* Gallery */
+  #gallery .g-container {
+    padding: 1.5rem;
   }
 
   /* Team */
   #team .team-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; 
+  }
+
+  #team .team-container .card {
+    margin-bottom: 2rem;
   }
 
   #team .team-container .card img {
@@ -75,8 +100,14 @@
   
 
   /* Contact */
+  #contact .contact-container {
+    padding: 1rem;
+    margin: 0;
+  }
+
   #contact-form .contact {
     grid-template-columns: 1fr;
+    font-size: 1rem;
   }
 
   #contact-form .contact-card2 {
@@ -85,4 +116,20 @@
 
   .btn-contact {
     left: 20%;
+  }
+
+
+  /* Footer */
+  #main-footer .footer-container {
+    display: block; 
+    padding: 2rem;
+    font-size: 0.9rem;
+  }
+
+  #main-footer .footer-container > * {
+    margin-bottom: 2rem; 
+  }
+
+  .btn-contact {
+    left: 0; 
   }
