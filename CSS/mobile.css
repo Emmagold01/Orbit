@@ -1,3 +1,7 @@
+.container {
+  padding: 0.5rem;
+}
+
 /* Navigation */
 #navbar .container {
     grid-template-columns: 6fr 3fr;
@@ -9,7 +13,7 @@
   }
 
   #navbar .container ul {
-    margin-left: 10rem;
+    margin-left: 6rem;
   }
 
   .btn {
@@ -40,7 +44,7 @@
     grid-template-columns: 1fr;
     padding: 1.5rem;
     font-size: 1rem;
-    margin-left: 3rem;
+    margin-left: 1rem;
   }
 
   /* Gallery */
@@ -51,6 +55,7 @@
   /* Team */
   #team .team-container {
     grid-template-columns: 1fr; 
+    padding: 1px;
   }
 
   #team .team-container .card {
@@ -100,24 +105,37 @@
   
 
   /* Contact */
-  #contact .contact-container {
-    padding: 1rem;
-    margin: 0;
-  }
-
-  #contact-form .contact {
-    grid-template-columns: 1fr;
-    font-size: 1rem;
-  }
 
   #contact-form .contact-card2 {
     display: none;
   }
 
-  .btn-contact {
-    left: 20%;
-  }
 
+  #contact-form .contact {
+    grid-template-columns: 1fr;
+  }
+  
+
+  
+  #contact-form .btn-contact {
+    left: 40%; 
+    transform: translateX(-50%); 
+    margin-top: -1rem
+  }
+  
+
+  #contact-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  #contact-form .contact-card1 {
+    padding: 1rem; 
+    background: none;
+    color: #333;
+    font-family: sans-serif;
+  }
+  
+  
 
   /* Footer */
   #main-footer .footer-container {
