@@ -52,6 +52,10 @@
     padding: 1.5rem;
   }
 
+  #gallery {
+    display: none;
+  }
+
   /* Team */
   #team .team-container {
     grid-template-columns: 1fr; 
