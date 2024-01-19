@@ -64,10 +64,11 @@
 
   #team .team-container .card {
     margin-bottom: 2rem;
+    text-align: center;
   }
 
   #team .team-container .card img {
-    height: 60vh;
+    display: none;
   }
 
   /* Why */
