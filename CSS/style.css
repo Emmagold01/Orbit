@@ -94,7 +94,7 @@
   margin: 1.5rem ;
 }
 
-.text-primary {
+.x-primary {
   color: rgba(24, 187, 73, 0.966);
 }
 
@@ -156,132 +156,6 @@
   left: 34.6%;
 }
 
-  /* Sign In */
- #signin .scene {
-  position: relative;
-  height: 100vh;
-  background: url(../IMG/pexels-kehn-hermano-3584394.jpg) center center/cover;
-  align-items: center;
-  display: flex;
-  justify-content: center;
- }
-
- #signin .cards {
-  max-width: 300px;
-  color: white;
-  background: #fefefe13;
-  backdrop-filter: blur(10px);
-  border: 1px solid #fefefe2e;
-  border-radius: 15px;
-  box-shadow: 0 10px 35px 0 #362100a6;
-  overflow: hidden;
-  padding: 20px 30px 50px 30px;
-  position: relative;
-  text-align: center;
-  z-index: 1;
- }
-
- #signin .heading {
-  font-size: 1.35rem;
-  font-weight: 200;
-  margin-bottom: 15px;
-  font-family: sans-serif;
- }
-
- #signin .figure {
-  height: auto;
-  margin: 0 auto;
-  max-width: 225px;
-  width: 60%;
- }
-
- #signin .image  {
-  border-radius: 10%;
-  max-width: 100%;
- }
-
- #signin .input {
-  width: 100%;
-  background: #fefefe13;
-  border: 1px solid #fefefe4d;
-  border-radius: 5px;
-  box-sizing: border-box;
-  color: #fefefe;
-  display: block;
-  font-size: 1rem;
-  letter-spacing: 0.15rem;
-  padding: 10px;
- }
-
- #signin .input:focus {
-  background: #fefefe14;
-  border: 1px solid #fefefebf;
-  outline: none;
- }
-
- #signin .button {
-  background: #fefefea6;
-  border: none;
-  border-radius: 5px;
-  color: #362100;
-  margin: 15px auto 0 auto;
-  padding: 8px 20px;
- }
-
- .button:active {
-  background: #ffffffbf;
-  outline: none;
- }
-
-
-  /* Navigation */ 
-  #navbar {
-    background: #0c0c0c;
-    color: #fff;
-    position: sticky;
-    top: 0;
-    z-index: 2;
-  }
-
-  #navbar .container {
-    display: grid;
-    grid-template-columns: 6fr 3fr 2fr;
-    padding: 1rem;
-    align-items: center;
-  }
-
-  #navbar .logo {
-    width: 180px;
-  }
-  
-  #navbar ul {
-    justify-self: end;
-    display: flex;
-  }
-
-  #navbar .social {
-    justify-self: center;
-  }
-
-  #navbar .social i {
-    color: #fff;
-    size: 1rem;
-  }
-
-  #navbar ul li a {
-    padding: 0.75rem;
-    color: #fff;
-  }
-
-  #navbar ul li a.current {
-    background: #8493;
-    color: #fff;
- 
-  }
-
-  #navbar ul li a:hover {
-    color: rgba(221, 55, 96, 0.533);
-  }
 
   /* Showcase */
   #home-container {
@@ -478,6 +352,7 @@
   margin-bottom: 1.5rem;
   line-height: 1.1;
   text-align: center;
+  margin-top: 5rem;
 }
 
 #about .about-heading h1 {

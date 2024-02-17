@@ -3,28 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" media="screen and (max-width:768px)" href="CSS/mobile.css">
     <title>X Orbit | About</title>
 </head>
 <body>
-     <!-- navbar -->
-
-     <nav id="navbar">
-       <div class="container">
-        <h1 class="logo"><span class="text-primary">X</span> Orbit</h1>
-        <div class="social">
-            <a href="http://facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
-            <a href="http://instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+    <nav class="navbar navbar-expand-md bg-black navbar-dark fixed-top">
+        <div class="container">
+          <a href="#" class="navbar-brand"><span class="x-primary">X</span>-Orbit</a>
+          <button
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            class="navbar-toggler"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link ">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link active">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <ul>
-            <li><a  href="index.html">Home</a></li>
-            <li><a class="current" href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-       </div>
-     </nav>
+      </nav>
 
     <section id="about">
         <div class="a-container">
@@ -99,6 +111,7 @@
 </div>
 </footer>
 
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
